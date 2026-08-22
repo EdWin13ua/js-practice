@@ -16,15 +16,15 @@ function checkAccess(subType) {
   }
 }
 
-console.log(checkAccess("starter"));
-console.log(checkAccess("vip"));
-console.log(checkAccess("free"));
+// console.log(checkAccess("starter"));
+// console.log(checkAccess("vip"));
+// console.log(checkAccess("free"));
 
 // Задача 2 від Gemini
 // Передбач результат (без запуску коду). Що саме виведе в консоль кожен із цих виразів?
-console.log(false || "Кіт" || 0);// "Кіт"
-console.log(0 || null || undefined);//undefined
-console.log("Яблуко" || "Груша");//"Яблуко"
+// console.log(false || "Кіт" || 0);// "Кіт"
+// console.log(0 || null || undefined);//undefined
+// console.log("Яблуко" || "Груша");//"Яблуко"
 
 // Задача 3 від Gemini
 // Напиши функція canRide(height, hasAdult), яка перевіряє, чи можна дитині кататися на гірці.
@@ -49,10 +49,10 @@ function canRide(height, hasAdult) {
   return height >= 140 || hasAdult;
 }
 
-console.log(canRide(150, false));
-console.log(canRide(120, true));
-console.log(canRide(110, false));
-console.log(canRide(140, false));
+// console.log(canRide(150, false));
+// console.log(canRide(120, true));
+// console.log(canRide(110, false));
+// console.log(canRide(140, false));
 
 // Задача 4 від Gemini
 // Напиши функцію isWeekend(day), яка приймає день тижня (рядок).
@@ -77,9 +77,9 @@ return day === "Saturday" || day === "Sunday"
 }
 
 
-console.log(isWeekend("Saturday"));
-console.log(isWeekend("Sunday"));
-console.log(isWeekend("Monday"));
+// console.log(isWeekend("Saturday"));
+// console.log(isWeekend("Sunday"));
+// console.log(isWeekend("Monday"));
 
 // Задача 5 від Gemini
 // Напиши функцію getUserName(name), яка приймає ім'я користувача (рядок).
@@ -91,9 +91,9 @@ function getUserName(name) {
   return name || "Гість";
 }
 
-console.log(getUserName("Анна"));
-console.log(getUserName("Іра"));
-console.log(getUserName(""));
+// console.log(getUserName("Анна"));
+// console.log(getUserName("Іра"));
+// console.log(getUserName(""));
 
 // Задача 6 від Gemini
 // Роль за замовчуванням
@@ -109,8 +109,8 @@ function getRole(role) {
   return role || "Guest";
 }
 
-console.log(getRole("Admin")); // "admin"
-console.log(getRole(""));      // "Guest"
+// console.log(getRole("Admin")); // "admin"
+// console.log(getRole(""));      // "Guest"
 
 
 // Задача 7 від Gemini
@@ -127,6 +127,6 @@ function canEdit(isAdmin, isAuthor) {
   return isAdmin || isAuthor
 }
 
-console.log(canEdit(true, false));  // true
-console.log(canEdit(false, true));  // true
-console.log(canEdit(false, false)); // false
+// console.log(canEdit(true, false));  // true
+// console.log(canEdit(false, true));  // true
+// console.log(canEdit(false, false)); // false

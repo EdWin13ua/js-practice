@@ -27,10 +27,10 @@ function isNumberInRange(start, end, number) {
   return number >= start && number <= end;
 }
 
-console.log(isNumberInRange(10, 30, 17));
-console.log(isNumberInRange(10, 30, 5));
-console.log(isNumberInRange(20, 50, 24));
-console.log(isNumberInRange(20, 50, 76));
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
 
 // Задача 2
 // Від Gemini
@@ -52,17 +52,17 @@ function canWatchMovie(age, hasSubscription) {
 //   return age >= 18 && hasSubscription;
 // }
 
-console.log(canWatchMovie(20, true)); // true
-console.log(canWatchMovie(16, true)); // false
-console.log(canWatchMovie(22, false)); // false
+// console.log(canWatchMovie(20, true)); // true
+// console.log(canWatchMovie(16, true)); // false
+// console.log(canWatchMovie(22, false)); // false
 
 // Задача 3
 // Від Gemini
 // Задача 2: Коротке передбачення (усно)
 // Що виведе в консоль кожен із цих виразів ? Спробуй вгадати в голові, а потім перевір у коді:
 
-console.log("Cat" && "Dog"); //"Dog"
-console.log(0 && "JavaScript"); //0
+// console.log("Cat" && "Dog"); //"Dog"
+// console.log(0 && "JavaScript"); //0
 
 // Задача 4
 // Від Gemini
@@ -81,9 +81,9 @@ function canAccessCourse(isLoggedIn, hasPaid) {
   return isLoggedIn && hasPaid;
 }
 
-console.log(canAccessCourse(true, true)); // true
-console.log(canAccessCourse(true, false)); // false
-console.log(canAccessCourse(false, true)); // false
+// console.log(canAccessCourse(true, true)); // true
+// console.log(canAccessCourse(true, false)); // false
+// console.log(canAccessCourse(false, true)); // false
 
 
 // Задача 8 від Gemini
@@ -101,6 +101,6 @@ function isWorkingDay(isWeekday, isNotHoliday) {
   return isWeekday && isNotHoliday
 }
 
-console.log(isWorkingDay(true, true));   // true
-console.log(isWorkingDay(true, false));  // false
-console.log(isWorkingDay(false, true));  // false
+// console.log(isWorkingDay(true, true));   // true
+// console.log(isWorkingDay(true, false));  // false
+// console.log(isWorkingDay(false, true));  // false

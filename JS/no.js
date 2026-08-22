@@ -9,8 +9,8 @@ function toggleModalVisibility(isVisible) {
   return !isVisible;
 }
 
-console.log(toggleModalVisibility(true));
-console.log(toggleModalVisibility(false));
+// console.log(toggleModalVisibility(true));
+// console.log(toggleModalVisibility(false));
 
 
 // Задача 2 від Gemini
@@ -24,8 +24,8 @@ function isGuest(isRegistered) {
     return !isRegistered;
 }
 
-console.log(isGuest(false));
-console.log(isGuest(true));
+// console.log(isGuest(false));
+// console.log(isGuest(true));
 
 
 // Задача 3 від Gemini
@@ -40,9 +40,9 @@ function canEnterClub(isAdult, isBanned) {
     return isAdult && !isBanned;
 }
 
-console.log(canEnterClub(true, false)); // true
-console.log(canEnterClub(true, true));  // false
-console.log(canEnterClub(false, false)); // false
+// console.log(canEnterClub(true, false)); // true
+// console.log(canEnterClub(true, true));  // false
+// console.log(canEnterClub(false, false)); // false
 
 // Задача 4 від Gemini
 // Перевірка на порожній рядок
@@ -55,5 +55,5 @@ function isEmpty(text) {
     return !text;
 }
 
-console.log(isEmpty(""));       // true
-console.log(isEmpty("Привіт")); // false
+// console.log(isEmpty(""));       // true
+// console.log(isEmpty("Привіт")); // false
