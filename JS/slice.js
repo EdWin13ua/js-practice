@@ -18,3 +18,32 @@ function getSubstring(string, length) {
 // console.log(getSubstring("Hello world", 8)); // "Hello wo"
 // console.log(getSubstring("Hello world", 11)); // "Hello world"
 // console.log(getSubstring("Hello world", 0)); // ""
+
+
+function getDomain(email) {
+  return email.slice (5)
+}
+// console.log(getDomain("user@gmail.com")); // "gmail.com"
+
+
+function truncateText(text, maxLength) {
+  return text.slice(0, maxLength);
+}
+// console.log(truncateText("JavaScript is awesome", 10)); // "JavaScript"
+// console.log(truncateText("Hello world", 5));           // "Hello"
+
+function getLastName(fullName) {
+  return fullName.slice (5)
+}
+// console.log(getLastName("John Doe"));
+
+function getCountryCode(code) {
+  return code.slice(0, 2);
+}
+// console.log(getCountryCode("UA-804"));
+// console.log(getCountryCode("US-840"));
+
+function getHiddenCard(cardNumber) {
+  return cardNumber.slice(-4);
+}
+// console.log(getHiddenCard("4141234567891111"));
